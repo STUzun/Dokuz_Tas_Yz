@@ -195,7 +195,7 @@ def DurumIkiUcOlc(tahta):
     birinciTasSayisi = kacTane(tahta, "1")
     ikinciTasSayisi = kacTane(tahta, "2")
 
-    if ikinciTasSayisi <= 2 or ikinciTasSayisi == 0:
+    if ikinciTasSayisi <= 2:
         return float('inf')
     elif birinciTasSayisi <= 2:
         return float('-inf')
